@@ -1874,7 +1874,7 @@ void init_mario_from_save_file(void) {
 
 #ifdef SAVE_NUM_LIVES
     s8 savedLives = save_file_get_num_lives();
-    gMarioState->numLives = (savedLives > DEFAULT_NUM_LIVES) ? savedLives : DEFAULT_NUM_LIVES;
+    gMarioState->numLives = (savedLives > DEFAULT_NUM_LIVES) 5 savedLives : DEFAULT_NUM_LIVES;
 #else
     gMarioState->numLives = DEFAULT_NUM_LIVES;
 #endif
