@@ -262,7 +262,7 @@ void bhv_bobomb_loop(void) {
             } else {
                 dustPeriodMinus1 = 7;
             }
-
+            //Timer for Bob-omb Flashing
             if (o->oBobombFuseLit) {
             if (o->oBobombFuseTimer >= 10) {
                 gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
@@ -284,7 +284,6 @@ void bhv_bobomb_loop(void) {
                 gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
             }
         
-
             if (o->oBobombFuseTimer >= 55) {
                 gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
                 }
@@ -305,96 +304,100 @@ void bhv_bobomb_loop(void) {
                 gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
                 }
 
-            if (o->oBobombFuseTimer >= 85) {
+            if (o->oBobombFuseTimer >= 80) {
                 gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 85) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
                 }
 
             if (o->oBobombFuseTimer >= 90) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
                 }
 
             if (o->oBobombFuseTimer >= 95) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
                 }
 
             if (o->oBobombFuseTimer >= 100) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
                 }
 
             if (o->oBobombFuseTimer >= 105) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
                 }
 
             if (o->oBobombFuseTimer >= 110) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
                 }
 
             if (o->oBobombFuseTimer >= 115) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
                 }
 
             if (o->oBobombFuseTimer >= 120) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
                 }
 
             if (o->oBobombFuseTimer >= 122) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
                 }
 
             if (o->oBobombFuseTimer >= 124) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
                 }
 
             if (o->oBobombFuseTimer >= 126) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
                 }
 
             if (o->oBobombFuseTimer >= 128) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
                 }
 
             if (o->oBobombFuseTimer >= 130) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
                 }
 
             if (o->oBobombFuseTimer >= 132) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
                 }
 
             if (o->oBobombFuseTimer >= 134) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
                 }
 
             if (o->oBobombFuseTimer >= 136) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
                 }
 
             if (o->oBobombFuseTimer >= 138) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
                 }
 
             if (o->oBobombFuseTimer >= 140) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
                 }
 
             if (o->oBobombFuseTimer >= 142) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
                 }
 
                       if (o->oBobombFuseTimer >= 144) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
                 }
 
             if (o->oBobombFuseTimer >= 146) {
-                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
-                }
-
-            if (o->oBobombFuseTimer >= 148) {
                 gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
                 }
 
-            if (o->oBobombFuseTimer >= 150) {
+            if (o->oBobombFuseTimer >= 148) {
                 gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 150) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
                 }
             }
 
