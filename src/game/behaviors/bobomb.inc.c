@@ -263,6 +263,141 @@ void bhv_bobomb_loop(void) {
                 dustPeriodMinus1 = 7;
             }
 
+            if (o->oBobombFuseLit) {
+            if (o->oBobombFuseTimer >= 10) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 20) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 30) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 40) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 50) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+            }
+        
+
+            if (o->oBobombFuseTimer >= 55) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 60) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 65) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 70) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 75) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 85) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 90) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 95) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 100) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 105) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 110) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 115) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 120) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 122) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 124) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 126) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 128) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 130) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 132) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 134) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 136) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 138) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 140) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 142) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+                      if (o->oBobombFuseTimer >= 144) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 146) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+
+            if (o->oBobombFuseTimer >= 148) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BLACK_BOBOMB];
+                }
+
+            if (o->oBobombFuseTimer >= 150) {
+                gCurrentObject->header.gfx.sharedChild = gLoadedGraphNodes[MODEL_BOBOMB_BUDDY];
+                }
+            }
+
             // oBobombFuseTimer % 2 or oBobombFuseTimer % 8
             if (!(dustPeriodMinus1 & o->oBobombFuseTimer)) {
                 spawn_object(o, MODEL_SMOKE, bhvBobombFuseSmoke);
@@ -271,10 +406,14 @@ void bhv_bobomb_loop(void) {
             cur_obj_play_sound_1(SOUND_AIR_BOBOMB_LIT_FUSE);
 
             o->oBobombFuseTimer++;
+
+            //if o->oBombFuseTimer >= 5{
+                
+            //}
         }
     }
 }
-
+ 
 void bhv_bobomb_fuse_smoke_init(void) {
     o->oPosX += (s32)(random_float() * 80.0f) - 40;
     o->oPosY += (s32)(random_float() * 80.0f) + 60;

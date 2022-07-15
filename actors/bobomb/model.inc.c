@@ -30,18 +30,6 @@ ALIGNED8 static const Texture bobomb_seg8_texture_08022260[] = {
 #include "actors/bobomb/bob-omb_eyes_blink.rgba16.inc.c"
 };
 
-ALIGNED8 static const Texture mad_1[] = {
-#include "actors/bobomb/mad_1.rgba16.inc.c"
-};
-
-ALIGNED8 static const Texture mad_2[] = {
-#include "actors/bobomb/mad_2.rgba16.inc.c"
-};
-
-ALIGNED8 static const Texture mad_3[] = {
-#include "actors/bobomb/mad_3.rgba16.inc.c"
-};
-
 // 0x08022A60
 static const Vtx bobomb_seg8_vertex_08022A60[] = {
     {{{   133,    -47,      0}, 0, {   480,      0}, {0xff, 0xff, 0xff, 0xff}}},
