@@ -54,7 +54,7 @@ const LevelScript level_castle_grounds_entry[] = {
 	AREA(1, castle_grounds_area_1),
 		WARP_NODE(2, LEVEL_BOB, 0x01, 2, WARP_NO_CHECKPOINT),
 		OBJECT(MODEL_NONE, -235, -1814, 6066, 0, 0, 0, (2 << 16), bhvAirborneWarp),
-		MARIO_POS(0x01, 0, -237, -2961, 6391),
+		MARIO_POS(0x01, -180, -42, -2961, 6280),
 		TERRAIN(castle_grounds_area_1_collision),
 		MACRO_OBJECTS(castle_grounds_area_1_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),
@@ -64,7 +64,7 @@ const LevelScript level_castle_grounds_entry[] = {
 	END_AREA(),
 
 	FREE_LEVEL_POOL(),
-	MARIO_POS(0x01, 0, -237, -2961, 6391),
+	MARIO_POS(0x01, -180, -42, -2961, 6280),
 	CALL(0, lvl_init_or_update),
 	CALL_LOOP(1, lvl_init_or_update),
 	CLEAR_LEVEL(),
