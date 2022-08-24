@@ -55,6 +55,8 @@ const LevelScript level_castle_grounds_entry[] = {
 		WARP_NODE(2, LEVEL_BOB, 0x01, 2, WARP_NO_CHECKPOINT),
 		OBJECT(MODEL_NONE, -235, -1814, 6066, 0, 0, 0, (2 << 16), bhvAirborneWarp),
 		MARIO_POS(0x01, -180, -42, -3152, 6280),
+		OBJECT(MODEL_NONE, 6648, -3011, 1823, 0, -90, 0, (3 << 16), bhvSignOnWall),
+		OBJECT(MODEL_NONE, 6490, -2990, 1341, 0, -59, 0, (3 << 16), bhvSignOnWall),
 		OBJECT(MODEL_RED_FLAME, 6513, -2982, 1609, 0, 0, 0, (1 << 16), bhvFlame),
 		TERRAIN(castle_grounds_area_1_collision),
 		MACRO_OBJECTS(castle_grounds_area_1_macro_objs),
