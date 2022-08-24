@@ -6,6 +6,10 @@ Lights1 castle_grounds_dl_Black_cave_lights = gdSPDefLights1(
 	0x7F, 0x7F, 0x7F,
 	0xFE, 0xFE, 0xFE, 0x28, 0x28, 0x28);
 
+Lights1 castle_grounds_dl_Black_cave2_lights = gdSPDefLights1(
+	0x7F, 0x7F, 0x7F,
+	0xFE, 0xFE, 0xFE, 0x28, 0x28, 0x28);
+
 Lights1 castle_grounds_dl_SunsetBG_lights = gdSPDefLights1(
 	0x7F, 0x7F, 0x7F,
 	0xFE, 0xFE, 0xFE, 0x28, 0x28, 0x28);
@@ -5635,15 +5639,15 @@ Gfx castle_grounds_dl_13_mesh_layer_5_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx castle_grounds_dl_8_mesh_layer_5_vtx_0[4] = {
+Vtx castle_grounds_dl_8_mesh_layer_1_vtx_0[4] = {
 	{{{-625, -200, 447},0, {-16, 1008},{0xFF, 0xFF, 0xFF, 0xFF}}},
 	{{{625, -200, 447},0, {1008, 1008},{0xFF, 0xFF, 0xFF, 0xFF}}},
 	{{{625, -200, -428},0, {1008, -16},{0xFF, 0xFF, 0xFF, 0xFF}}},
 	{{{-625, -200, -428},0, {-16, -16},{0xFF, 0xFF, 0xFF, 0xFF}}},
 };
 
-Gfx castle_grounds_dl_8_mesh_layer_5_tri_0[] = {
-	gsSPVertex(castle_grounds_dl_8_mesh_layer_5_vtx_0 + 0, 4, 0),
+Gfx castle_grounds_dl_8_mesh_layer_1_tri_0[] = {
+	gsSPVertex(castle_grounds_dl_8_mesh_layer_1_vtx_0 + 0, 4, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSP1Triangle(0, 2, 3, 0),
 	gsSPEndDisplayList(),
@@ -6918,30 +6922,30 @@ Gfx castle_grounds_dl_Plane_002_mesh_layer_5_tri_0[] = {
 };
 
 Vtx castle_grounds_dl_Plane_009_mesh_layer_5_vtx_0[24] = {
-	{{{-521, 67, 497},0, {-190, 673},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{-546, -2080, -496},0, {880, -222},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{-521, -2080, 497},0, {-210, -207},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{-546, 150, -496},0, {901, 692},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{-504, 181, 497},0, {-189, 720},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{-528, 263, -496},0, {902, 739},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{-453, 300, 497},0, {-188, 773},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{-474, 376, -496},0, {902, 790},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{-378, 404, 497},0, {-188, 826},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{-394, 472, -496},0, {902, 841},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{-289, 477, 497},0, {-188, 873},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{-299, 537, -496},0, {902, 888},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{204, 805, 497},0, {-191, 1116},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{213, 786, -495},0, {899, 1122},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{945, 1292, 497},0, {-195, 1479},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{915, 1375, -495},0, {896, 1498},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{915, 1375, -495},0, {896, 1498},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{945, 1292, 497},0, {-195, 1479},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{1718, 1805, 497},0, {-200, 1859},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{1718, 1838, -495},0, {889, 1877},{0xFD, 0x98, 0x65, 0xFF}}},
-	{{{2180, 1817, 497},0, {-205, 2049},{0xFD, 0x98, 0x65, 0x0}}},
-	{{{2180, 1850, -495},0, {884, 2067},{0xFD, 0x98, 0x65, 0x2A}}},
-	{{{2598, 1830, 497},0, {-210, 2221},{0xFD, 0x98, 0x65, 0xE}}},
-	{{{2598, 1863, -495},0, {880, 2238},{0xFD, 0x98, 0x65, 0xA}}},
+	{{{-521, 67, 497},0, {-190, 233},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{-546, -2080, -496},0, {880, -1836},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{-521, -2080, 497},0, {-210, -1801},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{-546, 150, -496},0, {901, 277},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{-504, 181, 497},0, {-189, 343},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{-528, 263, -496},0, {902, 386},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{-453, 300, 497},0, {-188, 465},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{-474, 376, -496},0, {902, 504},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{-378, 404, 497},0, {-188, 587},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{-394, 472, -496},0, {902, 623},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{-289, 477, 497},0, {-188, 696},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{-299, 537, -496},0, {902, 732},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{204, 805, 497},0, {-191, 1257},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{213, 786, -495},0, {899, 1271},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{945, 1292, 497},0, {-195, 2098},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{915, 1375, -495},0, {896, 2140},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{915, 1375, -495},0, {896, 2140},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{945, 1292, 497},0, {-195, 2098},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{1718, 1805, 497},0, {-200, 2976},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{1718, 1838, -495},0, {889, 3017},{0xFD, 0x98, 0x65, 0xFF}}},
+	{{{2180, 1817, 497},0, {-205, 3414},{0xFD, 0x98, 0x65, 0x0}}},
+	{{{2180, 1850, -495},0, {884, 3455},{0xFD, 0x98, 0x65, 0x2A}}},
+	{{{2598, 1830, 497},0, {-210, 3811},{0xFD, 0x98, 0x65, 0xE}}},
+	{{{2598, 1863, -495},0, {880, 3852},{0xFD, 0x98, 0x65, 0xA}}},
 };
 
 Gfx castle_grounds_dl_Plane_009_mesh_layer_5_tri_0[] = {
@@ -19549,7 +19553,7 @@ Gfx mat_castle_grounds_dl_Black_cave[] = {
 	gsDPSetCombineLERP(SHADE, 0, PRIMITIVE, 0, SHADE, 0, PRIMITIVE, 0, SHADE, 0, PRIMITIVE, 0, SHADE, 0, PRIMITIVE, 0),
 	gsSPClearGeometryMode(G_CULL_BACK | G_LIGHTING),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetPrimColor(0, 0, 0, 0, 0, 153),
+	gsDPSetPrimColor(0, 0, 0, 0, 0, 152),
 	gsSPSetLights1(castle_grounds_dl_Black_cave_lights),
 	gsSPEndDisplayList(),
 };
@@ -19557,6 +19561,22 @@ Gfx mat_castle_grounds_dl_Black_cave[] = {
 Gfx mat_revert_castle_grounds_dl_Black_cave[] = {
 	gsDPPipeSync(),
 	gsSPSetGeometryMode(G_CULL_BACK | G_LIGHTING),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_castle_grounds_dl_Black_cave2[] = {
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(SHADE, 0, PRIMITIVE, 0, SHADE, 0, PRIMITIVE, 0, SHADE, 0, PRIMITIVE, 0, SHADE, 0, PRIMITIVE, 0),
+	gsSPClearGeometryMode(G_LIGHTING),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetPrimColor(0, 0, 0, 0, 0, 255),
+	gsSPSetLights1(castle_grounds_dl_Black_cave2_lights),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_castle_grounds_dl_Black_cave2[] = {
+	gsDPPipeSync(),
+	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPEndDisplayList(),
 };
 
@@ -19727,7 +19747,7 @@ Gfx mat_castle_grounds_dl_WF_001[] = {
 	gsDPPipeSync(),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
 	gsDPSetTileSize(0, 0, 0, 124, 252),
-	gsDPSetPrimColor(0, 0, 0, 254, 240, 211),
+	gsDPSetPrimColor(0, 0, 0, 254, 240, 242),
 	gsSPSetLights1(castle_grounds_dl_WF_001_lights),
 	gsSPEndDisplayList(),
 };
@@ -20275,10 +20295,10 @@ Gfx castle_grounds_dl_13_mesh_layer_5[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx castle_grounds_dl_8_mesh_layer_5[] = {
-	gsSPDisplayList(mat_castle_grounds_dl_Black_cave),
-	gsSPDisplayList(castle_grounds_dl_8_mesh_layer_5_tri_0),
-	gsSPDisplayList(mat_revert_castle_grounds_dl_Black_cave),
+Gfx castle_grounds_dl_8_mesh_layer_1[] = {
+	gsSPDisplayList(mat_castle_grounds_dl_Black_cave2),
+	gsSPDisplayList(castle_grounds_dl_8_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_castle_grounds_dl_Black_cave2),
 	gsSPEndDisplayList(),
 };
 
