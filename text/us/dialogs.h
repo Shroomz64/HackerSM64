@@ -13,24 +13,27 @@
 #endif
 
 DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
-Wow! You're smack in the\n\
-middle of the battlefield.\n\
-You'll find the Power\n\
-Stars that Bowser stole\n\
-inside the painting\n\
-worlds.\n\
-First, talk to the\n\
-Bob-omb Buddy. (Press [B]\n\
-to talk.) He'll certainly\n\
-help you out, and so will\n\
-his " COMRADES " in other\n\
-areas.\n\
-To read signs, stop, face\n\
-them and press [B]. Press [A]\n\
-or [B] to scroll ahead. You\n\
-can talk to some other\n\
-characters by facing them\n\
-and pressing [B]."))
+Oh hey Mario, welcome\n\
+home. So I caught my\n\
+first ever SimpleFlips\n\
+livestream today,\n\
+great entertainer he is.\n\
+However I think his\n\
+Twitch was hacked mid-\n\
+stream by this mother-\n\
+fucker, he's been talking\n\
+about his ultimate plan\n\
+to 'piss on the moon'\n\
+tonight ever since\n\
+Simple's stream went\n\
+offline. I'm actually just\n\
+about to take my telescope\n\
+outside to see if I can\n\
+see him up there or not.\n\
+Meet me on the roof\n\
+if you'd like to try and\n\
+spot him with me."
+))
 
 DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
 Watch out! If you wander\n\
@@ -217,9 +220,21 @@ something you're holding,\n\
 press [B] again."))
 
 DEFINE_DIALOG(DIALOG_016, 1, 3, 30, 200, _("\
-Hop on the shiny shell and\n\
-ride wherever you want to\n\
-go! Shred those enemies!"))
+Well, he did it...\n\
+\n\
+\n\
+\n\
+\n\
+\n\
+\n\
+\n\
+\n\
+\n\
+\n\
+\n\
+He pissed on the fucking\n\
+moon..\n\
+"))
 
 DEFINE_DIALOG(DIALOG_017, 1, 4, 30, 200, _("\
 I'm the Big Bob-omb, lord\n\

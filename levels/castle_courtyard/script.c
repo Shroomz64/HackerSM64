@@ -43,13 +43,12 @@ const LevelScript level_castle_courtyard_entry[] = {
 	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 end persistent block [level commands] */
 
-	AREA(1, castle_courtyard_area_1),
-		WARP_NODE(2, LEVEL_BOB, 0x01, 2, WARP_NO_CHECKPOINT),
-		OBJECT(MODEL_NONE, -235, -1814, 6066, 0, 0, 0, (2 << 16), bhvAirborneWarp),
-		MARIO_POS(0x01, -180, -42, -3152, 6280),
-		OBJECT(MODEL_RED_FLAME, 6516, -2980, 1615, 0, 0, 0, (1 << 16), bhvFlame),
-		TERRAIN(castle_courtyard_area_1_collision),
-		MACRO_OBJECTS(castle_courtyard_area_1_macro_objs),
+	AREA(2, castle_courtyard_area_2),
+		INSTANT_WARP(4, 2, 0, 0, 0),
+		OBJECT(MODEL_NONE, -461, -1495, 1732, 0, 0, 0, (4 << 16), bhvAirborneWarp),
+		MARIO_POS(2, 0, -461, -2349, 1732),
+		TERRAIN(castle_courtyard_area_2_collision),
+		MACRO_OBJECTS(castle_courtyard_area_2_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),
 		TERRAIN_TYPE(TERRAIN_GRASS),
 		/* Fast64 begin persistent block [area commands] */
@@ -57,7 +56,7 @@ const LevelScript level_castle_courtyard_entry[] = {
 	END_AREA(),
 
 	FREE_LEVEL_POOL(),
-	MARIO_POS(0x01, -180, -42, -3152, 6280),
+	MARIO_POS(2, 0, -461, -2349, 1732),
 	CALL(0, lvl_init_or_update),
 	CALL_LOOP(1, lvl_init_or_update),
 	CLEAR_LEVEL(),
