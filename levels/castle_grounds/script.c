@@ -64,7 +64,7 @@ const LevelScript level_castle_grounds_entry[] = {
 		OBJECT(MODEL_RED_FLAME, 6465, -3094, -783, 0, 0, 0, (1 << 16), bhvFlame),
 		OBJECT(MODEL_NONE, 58, -2286, -6653, -90, 0, 0, (3 << 16), bhvWarp),
 		OBJECT(MODEL_EXCLAMATION_POINT, 6594, -2893, -586, 0, 108, 0, 0x00000000, bhvRotatingCounterClockwise),
-		OBJECT(MODEL_EXCLAMATION_POINT, 6461, -2885, -1035, 0, 110, 0, 0x00000000, bhvRotatingCounterClockwise),
+		OBJECT(MODEL_EXCLAMATION_POINT, 6461, -2886, -1035, 0, 110, 0, 0x00000000, bhvRotatingCounterClockwise),
 		TERRAIN(castle_grounds_area_1_collision),
 		MACRO_OBJECTS(castle_grounds_area_1_macro_objs),
 		STOP_MUSIC(0),

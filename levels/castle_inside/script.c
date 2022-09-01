@@ -57,13 +57,15 @@ const LevelScript level_castle_inside_entry[] = {
 	AREA(1, castle_inside_area_1),
 		WARP_NODE(4, LEVEL_CASTLE_GROUNDS, 1, 4, WARP_NO_CHECKPOINT),
 		WARP_NODE(5, LEVEL_CASTLE_GROUNDS, 2, 6, WARP_NO_CHECKPOINT),
+		WARP_NODE(8, LEVEL_BOB, 1, 9, WARP_NO_CHECKPOINT),
+		OBJECT(MODEL_NONE, 1362, -1763, -753, -90, 90, 0, (8 << 16), bhvWarp),
 		OBJECT(MODEL_NONE, -460, -2451, 2009, 90, 0, -180, (5 << 16), bhvWarp),
 		OBJECT(MODEL_NONE, -461, -2443, 1765, 0, -180, 0, (4 << 16), bhvAirborneWarp),
 		MARIO_POS(1, -180, -461, -2451, 1826),
 		OBJECT(MODEL_TOAD, 626, -2337, -538, 0, 54, 0, (1 << 16), bhvToadMessage),
 		TERRAIN(castle_inside_area_1_collision),
 		MACRO_OBJECTS(castle_inside_area_1_macro_objs),
-		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),
+		STOP_MUSIC(0),
 		TERRAIN_TYPE(TERRAIN_GRASS),
 		/* Fast64 begin persistent block [area commands] */
 		/* Fast64 end persistent block [area commands] */

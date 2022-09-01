@@ -34,6 +34,7 @@ const LevelScript level_bob_entry[] = {
 	LOAD_YAY0(0x08, _common0_yay0SegmentRomStart, _common0_yay0SegmentRomEnd), 
 	LOAD_RAW(0x0F, _common0_geoSegmentRomStart, _common0_geoSegmentRomEnd), 
 	LOAD_MIO0(0x7, _bob_segment_7SegmentRomStart, _bob_segment_7SegmentRomEnd), 
+	LOAD_MIO0(0xa, _bitfs_skybox_mio0SegmentRomStart, _bitfs_skybox_mio0SegmentRomEnd), 
 	ALLOC_LEVEL_POOL(),
 	MARIO(MODEL_MARIO, 0x00000001, bhvMario), 
 	JUMP_LINK(script_func_global_1), 
@@ -47,20 +48,21 @@ const LevelScript level_bob_entry[] = {
 	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 end persistent block [level commands] */
 
-	AREA(2, bob_area_2),
-		INSTANT_WARP(4, 2, 0, 0, 0),
-		OBJECT(MODEL_NONE, -461, -1495, 1732, 0, 0, 0, (4 << 16), bhvAirborneWarp),
-		MARIO_POS(2, 0, -461, -2349, 1732),
-		TERRAIN(bob_area_2_collision),
-		MACRO_OBJECTS(bob_area_2_macro_objs),
-		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),
+	AREA(1, bob_area_1),
+		WARP_NODE(2, LEVEL_CASTLE_GROUNDS, 1, 2, WARP_NO_CHECKPOINT),
+		WARP_NODE(3, LEVEL_CASTLE, 1, 4, WARP_NO_CHECKPOINT),
+		OBJECT(MODEL_NONE, 743, 1919, 28343, 0, -180, 0, (9 << 16), bhvAirborneWarp),
+		MARIO_POS(0x01, 0, 73, 1595, 28905),
+		TERRAIN(bob_area_1_collision),
+		MACRO_OBJECTS(bob_area_1_macro_objs),
+		STOP_MUSIC(0),
 		TERRAIN_TYPE(TERRAIN_GRASS),
 		/* Fast64 begin persistent block [area commands] */
 		/* Fast64 end persistent block [area commands] */
 	END_AREA(),
 
 	FREE_LEVEL_POOL(),
-	MARIO_POS(2, 0, -461, -2349, 1732),
+	MARIO_POS(0x01, 0, 73, 1595, 28905),
 	CALL(0, lvl_init_or_update),
 	CALL_LOOP(1, lvl_init_or_update),
 	CLEAR_LEVEL(),

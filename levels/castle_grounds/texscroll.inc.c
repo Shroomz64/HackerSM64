@@ -8,7 +8,7 @@ void scroll_castle_grounds_dl_yDay_VIS_mesh_layer_5_vtx_7() {
 	int deltaX;
 	Vtx *vertices = segmented_to_virtual(castle_grounds_dl_yDay_VIS_mesh_layer_5_vtx_7);
 
-	deltaX = (int)(0.5 * 0x20) % width;
+	deltaX = (int)(0.009999999776482582 * 0x20) % width;
 
 	if (absi(currentX) > width) {
 		deltaX -= (int)(absi(currentX) / width) * width * signum_positive(deltaX);
@@ -26,7 +26,7 @@ void scroll_sts_mat_castle_grounds_dl_Clouds_001() {
 	Gfx *mat = segmented_to_virtual(mat_castle_grounds_dl_Clouds_001);
 
 	if (--curInterval0 <= 0) {
-		shift_s(mat, 11, PACK_TILESIZE(0, 1));
+		shift_s_down(mat, 11, PACK_TILESIZE(0, 1));
 		curInterval0 = intervalTex0;
 	}
 };
@@ -41,7 +41,7 @@ void scroll_castle_grounds_dl_yDay_Waterbox_mesh_layer_5_vtx_0() {
 	int deltaX;
 	Vtx *vertices = segmented_to_virtual(castle_grounds_dl_yDay_Waterbox_mesh_layer_5_vtx_0);
 
-	deltaX = (int)(0.25 * 0x20) % width;
+	deltaX = (int)(0.10000000149011612 * 0x20) % width;
 
 	if (absi(currentX) > width) {
 		deltaX -= (int)(absi(currentX) / width) * width * signum_positive(deltaX);
@@ -54,8 +54,8 @@ void scroll_castle_grounds_dl_yDay_Waterbox_mesh_layer_5_vtx_0() {
 }
 
 void scroll_sts_mat_castle_grounds_dl_water2() {
-	static int intervalTex0 = 10;
-	static int curInterval0 = 10;
+	static int intervalTex0 = 9;
+	static int curInterval0 = 9;
 	Gfx *mat = segmented_to_virtual(mat_castle_grounds_dl_water2);
 
 	if (--curInterval0 <= 0) {
@@ -74,7 +74,7 @@ void scroll_castle_grounds_dl_yDay_Waterfall__mesh_layer_5_vtx_0() {
 	int deltaY;
 	Vtx *vertices = segmented_to_virtual(castle_grounds_dl_yDay_Waterfall__mesh_layer_5_vtx_0);
 
-	deltaY = (int)(0.75 * 0x20) % height;
+	deltaY = (int)(0.20000000298023224 * 0x20) % height;
 
 	if (absi(currentY) > height) {
 		deltaY -= (int)(absi(currentY) / height) * height * signum_positive(deltaY);
@@ -86,17 +86,6 @@ void scroll_castle_grounds_dl_yDay_Waterfall__mesh_layer_5_vtx_0() {
 	currentY += deltaY;
 }
 
-void scroll_sts_mat_castle_grounds_dl_WF_001() {
-	static int intervalTex0 = 10;
-	static int curInterval0 = 10;
-	Gfx *mat = segmented_to_virtual(mat_castle_grounds_dl_WF_001);
-
-	if (--curInterval0 <= 0) {
-		shift_s(mat, 18, PACK_TILESIZE(0, 1));
-		curInterval0 = intervalTex0;
-	}
-};
-
 void scroll_castle_grounds_dl_zNight_VIS_002_mesh_layer_5_vtx_7() {
 	int i = 0;
 	int count = 28;
@@ -107,7 +96,7 @@ void scroll_castle_grounds_dl_zNight_VIS_002_mesh_layer_5_vtx_7() {
 	int deltaX;
 	Vtx *vertices = segmented_to_virtual(castle_grounds_dl_zNight_VIS_002_mesh_layer_5_vtx_7);
 
-	deltaX = (int)(0.5 * 0x20) % width;
+	deltaX = (int)(0.009999999776482582 * 0x20) % width;
 
 	if (absi(currentX) > width) {
 		deltaX -= (int)(absi(currentX) / width) * width * signum_positive(deltaX);
@@ -125,7 +114,7 @@ void scroll_sts_mat_castle_grounds_dl_Night_Clouds() {
 	Gfx *mat = segmented_to_virtual(mat_castle_grounds_dl_Night_Clouds);
 
 	if (--curInterval0 <= 0) {
-		shift_s(mat, 11, PACK_TILESIZE(0, 1));
+		shift_s_down(mat, 11, PACK_TILESIZE(0, 1));
 		curInterval0 = intervalTex0;
 	}
 };
@@ -140,7 +129,7 @@ void scroll_castle_grounds_dl_zNight_Water_001_mesh_layer_5_vtx_0() {
 	int deltaX;
 	Vtx *vertices = segmented_to_virtual(castle_grounds_dl_zNight_Water_001_mesh_layer_5_vtx_0);
 
-	deltaX = (int)(0.25 * 0x20) % width;
+	deltaX = (int)(0.10000000149011612 * 0x20) % width;
 
 	if (absi(currentX) > width) {
 		deltaX -= (int)(absi(currentX) / width) * width * signum_positive(deltaX);
@@ -162,7 +151,7 @@ void scroll_castle_grounds_dl_zNight_Waterfall_001_mesh_layer_5_vtx_0() {
 	int deltaY;
 	Vtx *vertices = segmented_to_virtual(castle_grounds_dl_zNight_Waterfall_001_mesh_layer_5_vtx_0);
 
-	deltaY = (int)(0.75 * 0x20) % height;
+	deltaY = (int)(0.20000000298023224 * 0x20) % height;
 
 	if (absi(currentY) > height) {
 		deltaY -= (int)(absi(currentY) / height) * height * signum_positive(deltaY);
@@ -180,7 +169,6 @@ void scroll_castle_grounds() {
 	scroll_castle_grounds_dl_yDay_Waterbox_mesh_layer_5_vtx_0();
 	scroll_sts_mat_castle_grounds_dl_water2();
 	scroll_castle_grounds_dl_yDay_Waterfall__mesh_layer_5_vtx_0();
-	scroll_sts_mat_castle_grounds_dl_WF_001();
 	scroll_castle_grounds_dl_zNight_VIS_002_mesh_layer_5_vtx_7();
 	scroll_sts_mat_castle_grounds_dl_Night_Clouds();
 	scroll_castle_grounds_dl_zNight_Water_001_mesh_layer_5_vtx_0();
