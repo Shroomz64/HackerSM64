@@ -210,14 +210,13 @@ Do you want to Save?\n\
 //You Bet//Not Now"))
 
 DEFINE_DIALOG(DIALOG_015, 1, 4, 30, 200, _("\
-You can punch enemies to\n\
-knock them down. Press [A]\n\
-to jump, [B] to punch.\n\
-Press [A] then [B] to Kick.\n\
-To pick something up,\n\
-press [B], too. To throw\n\
-something you're holding,\n\
-press [B] again."))
+After a long day of\n\
+mercilessly beating the\n\
+shit out of Goombas, you\n\
+feel tired. Maybe you\n\
+should head  home and hit\n\
+the hay\n\
+"))
 
 DEFINE_DIALOG(DIALOG_016, 1, 3, 30, 200, _("\
 Well, he did it...\n\
@@ -234,6 +233,10 @@ Well, he did it...\n\
 \n\
 He pissed on the fucking\n\
 moon..\n\
+\n\
+Well anyway Mario, you'd\n\
+better get to bed, it's\n\
+getting pretty late.\n\
 "))
 
 DEFINE_DIALOG(DIALOG_017, 1, 4, 30, 200, _("\
@@ -297,11 +300,13 @@ Maybe it's for the\n\
 basement..."))
 
 DEFINE_DIALOG(DIALOG_024, 1, 5, 95, 200, _("\
-You need Star power to\n\
-open this door. Recover a\n\
-Power Star from an enemy\n\
-inside one of the castle's\n\
-paintings."))
+Oh shit! Where are\n\
+we? Looks like we'd\n\
+better hurry up and\n\
+escape before Mario\n\
+wakes up, otherwise\n\
+we'll be stuck here\n\
+forever..."))
 
 DEFINE_DIALOG(DIALOG_025, 1, 4, 95, 200, _("\
 It takes the power of\n\
@@ -838,30 +843,41 @@ can't open doors that\n\
 are underwater."))
 
 DEFINE_DIALOG(DIALOG_066, 1, 5, 30, 200, _("\
-Mario, it's Peach!\n\
-Please be careful! Bowser\n\
-is so wicked! He will try\n\
-to burn you with his\n\
-horrible flame breath.\n\
-Run around behind and\n\
-grab him by the tail with\n\
-the [B] Button. Once you\n\
-grab hold, swing him\n\
-around in great circles.\n\
-Rotate the Control Stick\n\
-to go faster and faster.\n\
-The faster you swing him,\n\
-the farther he'll fly.\n\
+You did it! You escaped\n\
+Mario's dream before\n\
+he woke up, now we\n\
+can safely escape.\n\
 \n\
-Use the [C] Buttons to look\n\
-around, Mario. You have\n\
-to throw Bowser into one\n\
-of the bombs in the four\n\
-corners.\n\
-Aim well, then press [B]\n\
-again to launch Bowser.\n\
-Good luck, Mario! Our\n\
-fate is in your hands."))
+Thank you for playing\n\
+LucidDreams!\n\
+\n\
+\n\
+\n\
+This hack was made by\n\
+Cyboo and Shroomz\n\
+for SimpleFlips\n\
+Dream competition\n\
+\n\
+As for Shroomz this was\n\
+his 1st hack. Cyboo \n\
+on the otherhand is\n\
+known for his\n\
+Super Mario 3DL Modding\n\
+Check out his YouTube to\n\
+download his 1 world mod!\n\
+\n\
+\n\
+\n\
+And once again, thank\n\
+you for playing our mod!\n\
+\n\
+We're looking forward to\n\
+future competitions!\n\
+Also incase you missed it\n\
+the hub does feature 3\n\
+easter eggs I think you\n\
+might enjoy!\n\
+"))
 
 DEFINE_DIALOG(DIALOG_067, 1, 5, 30, 200, _("\
 Tough luck, Mario!\n\

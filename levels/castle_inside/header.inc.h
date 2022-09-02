@@ -79,7 +79,7 @@ extern Vtx castle_inside_dl_1VIS_mesh_layer_1_vtx_3[2026];
 extern Gfx castle_inside_dl_1VIS_mesh_layer_1_tri_3[];
 extern Vtx castle_inside_dl_1VIS_mesh_layer_1_vtx_4[1410];
 extern Gfx castle_inside_dl_1VIS_mesh_layer_1_tri_4[];
-extern Vtx castle_inside_dl_1VIS_mesh_layer_1_vtx_5[160];
+extern Vtx castle_inside_dl_1VIS_mesh_layer_1_vtx_5[192];
 extern Gfx castle_inside_dl_1VIS_mesh_layer_1_tri_5[];
 extern Vtx castle_inside_dl_1VIS_mesh_layer_1_vtx_6[5];
 extern Gfx castle_inside_dl_1VIS_mesh_layer_1_tri_6[];
